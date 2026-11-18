@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!-- Capa Core: contratos (repositorios y servicios), excepciones de negocio y lógica de cálculo de festivos. -->
+
+  <ItemGroup>
+    <ProjectReference Include="..\FestivosApi.Dominio\FestivosApi.Dominio.csproj" />
+  </ItemGroup>
+
+</Project>

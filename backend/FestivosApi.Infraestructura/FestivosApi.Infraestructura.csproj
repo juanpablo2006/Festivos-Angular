@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!-- Capa de Infraestructura: acceso a datos con Entity Framework Core + SQLite. -->
+
+  <ItemGroup>
+    <ProjectReference Include="..\FestivosApi.Core\FestivosApi.Core.csproj" />
+    <ProjectReference Include="..\FestivosApi.Dominio\FestivosApi.Dominio.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.8" />
+  </ItemGroup>
+
+</Project>

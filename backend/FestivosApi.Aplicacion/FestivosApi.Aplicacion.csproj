@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!-- Capa de Aplicación: servicios que orquestan repositorios y lógica de negocio. -->
+
+  <ItemGroup>
+    <ProjectReference Include="..\FestivosApi.Core\FestivosApi.Core.csproj" />
+    <ProjectReference Include="..\FestivosApi.Dominio\FestivosApi.Dominio.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
